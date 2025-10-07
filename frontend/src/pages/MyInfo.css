@@ -1,0 +1,54 @@
+.myinfo {
+  max-width: 800px;
+}
+
+.myinfo h1 {
+  margin-bottom: 24px;
+}
+
+.info-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.info-header h2 {
+  margin: 0;
+}
+
+.info-display {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.info-item label {
+  display: block;
+  font-weight: 600;
+  color: #6b7280;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.info-item p {
+  color: #1f2937;
+  font-size: 16px;
+}
+
+.role-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  background: #4f46e5;
+  color: white;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
